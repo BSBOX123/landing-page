@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Lions Uniform | The Pride of Daegu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span data-en="SAMSUNG LIONS" data-ko="삼성 라이온즈">SAMSUNG LIONS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-ko="홈">Home</a></li>
+                <li><a href="#uniform-intro" data-en="Uniform" data-ko="유니폼">Uniform</a></li>
+                <li><a href="#product" data-en="Features" data-ko="특징">Features</a></li>
+                <li><a href="#story" data-en="Story" data-ko="스토리">Story</a></li>
+                <li><a href="#contact" data-en="Contact" data-ko="연락처">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="lang-toggle" class="lang-btn">
+                    <span class="active">EN</span> / <span>KO</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">
+                <span class="highlight" data-en="The Pride" data-ko="자부심">The Pride</span><br>
+                <span data-en="of Daegu" data-ko="대구의">of Daegu</span>
+            </h1>
+            <p class="hero-subtitle" data-en="Experience the new standard of performance and style." data-ko="퍼포먼스와 스타일의 새로운 기준을 경험하세요.">Experience the new standard of performance and style.</p>
+            <a href="#uniform-intro" class="btn btn-primary" data-en="Discover More" data-ko="더 알아보기">Discover More</a>
+        </div>
+    </section>
+
+    <!-- Uniform Intro Section -->
+    <section id="uniform-intro" class="uniform-intro section-padding">
+        <div class="uniform-intro-container">
+            <div class="uniform-image reveal-left">
+                <img src="uniform_2.jpg" alt="2026 Samsung Lions Uniform">
+            </div>
+            <div class="uniform-text reveal-right">
+                <h2 data-en="The New Standard" data-ko="새로운 기준">The New Standard</h2>
+                <p data-en="Introducing the 2026 season uniform. Designed for ultimate mobility and unmistakable style, bringing the roar of the Lions to every game." data-ko="2026 시즌 유니폼을 소개합니다. 최고의 활동성과 압도적인 스타일로 디자인되어 매 경기 라이온즈의 포효를 담아냅니다.">Introducing the 2026 season uniform. Designed for ultimate mobility and unmistakable style, bringing the roar of the Lions to every game.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="product section-padding">
+        <div class="section-header reveal">
+            <h2 data-en="Engineered for Greatness" data-ko="위대함을 위한 설계">Engineered for Greatness</h2>
+            <p data-en="Every stitch is crafted to enhance performance on the field." data-ko="모든 땀방울을 위해 필드 위 퍼포먼스를 극대화하도록 제작되었습니다.">Every stitch is crafted to enhance performance on the field.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card reveal" style="--delay: 0s;">
+                <div class="feature-icon"><i data-lucide="wind"></i></div>
+                <h3 data-en="Ultra Breathable" data-ko="최상의 통기성">Ultra Breathable</h3>
+                <p data-en="Advanced mesh technology keeps you cool under pressure." data-ko="첨단 메쉬 기술로 압박감 속에서도 시원함을 유지합니다.">Advanced mesh technology keeps you cool under pressure.</p>
+            </div>
+            <div class="feature-card reveal" style="--delay: 0.2s;">
+                <div class="feature-icon"><i data-lucide="feather"></i></div>
+                <h3 data-en="Lightweight" data-ko="초경량">Lightweight</h3>
+                <p data-en="A feather-light feel that won't hold you back." data-ko="가벼운 착용감으로 움직임에 제한이 없습니다.">A feather-light feel that won't hold you back.</p>
+            </div>
+            <div class="feature-card reveal" style="--delay: 0.4s;">
+                <div class="feature-icon"><i data-lucide="shield-check"></i></div>
+                <h3 data-en="Premium Fabric" data-ko="프리미엄 소재">Premium Fabric</h3>
+                <p data-en="Durable, high-stretch materials designed for champions." data-ko="챔피언을 위해 디자인된 내구성과 신축성이 뛰어난 소재.">Durable, high-stretch materials designed for champions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section id="story" class="story section-padding">
+        <div class="story-container">
+            <div class="story-image reveal-left">
+                <!-- Fallback to a sleek gradient block if we don't have a second image -->
+                <div class="image-placeholder">
+                    <img src="uniform.png" alt="Detail View" style="filter: brightness(0.8) contrast(1.2);">
+                </div>
+            </div>
+            <div class="story-content reveal-right">
+                <h2 data-en="A Legacy Woven in Blue" data-ko="푸른색으로 엮어낸 레거시">A Legacy Woven in Blue</h2>
+                <p data-en="Since 1982, the Samsung Lions have defined excellence in Korean baseball. This uniform is more than fabric—it is the embodiment of championship DNA, honoring the past while embracing the future." data-ko="1982년 이래로 삼성 라이온즈는 한국 야구의 우수성을 정의해 왔습니다. 이 유니폼은 단순한 옷을 넘어 과거를 기리고 미래를 포용하는 챔피언의 DNA를 담고 있습니다.">Since 1982, the Samsung Lions have defined excellence in Korean baseball. This uniform is more than fabric—it is the embodiment of championship DNA, honoring the past while embracing the future.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>8</h3>
+                        <span data-en="Championships" data-ko="우승">Championships</span>
+                    </div>
+                    <div class="stat-item">
+                        <h3>1982</h3>
+                        <span data-en="Founded" data-ko="창단">Founded</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="contact-box reveal-scale">
+            <h2 data-en="Ready to Wear the Pride?" data-ko="자부심을 입을 준비가 되셨나요?">Ready to Wear the Pride?</h2>
+            <p data-en="Available now at the official Lions Store." data-ko="공식 라이온즈 스토어에서 지금 만나보세요.">Available now at the official Lions Store.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email" data-ko-placeholder="이메일을 입력하세요" required>
+                <button type="submit" class="btn btn-primary" data-en="Notify Me" data-ko="알림 받기">Notify Me</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">SAMSUNG LIONS</div>
+            <p>&copy; 2026 Samsung Lions. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="youtube"></i></a>
+                <a href="#"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
